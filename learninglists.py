@@ -15,3 +15,23 @@ directors.extend(ndirect)
 print(directors)
 directors.append("Coen")
 print(directors)
+directors.insert(1,"King")
+print(directors)
+directors.remove("King")
+#.remove() takes one argument
+print(directors)
+directors.pop()
+print(directors)
+print(directors.index("Bergman"))
+#gives first instance index
+directors.clear()
+print(directors)
+#clears entire list
+numl=[11,12,3,4,22,4,16]
+numl.sort()
+print(numl)
+#sorts number in ascending order
+numl.reverse()
+print(numl)
+numl2=numl.copy()
+print(numl2)
