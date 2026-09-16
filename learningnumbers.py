@@ -11,6 +11,7 @@ print(max(5,1))
 print(min(-1,3))
 print(round(3.2))
 print(round(3.5))
-#math needs to be imported for ceil,floor
+#math needs to be imported for ceil,floor,sqrt
 print(ceil(3.1))
 print(floor(3.9))
+print(sqrt(36))
