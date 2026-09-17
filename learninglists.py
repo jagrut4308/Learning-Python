@@ -35,3 +35,7 @@ numl.reverse()
 print(numl)
 numl2=numl.copy()
 print(numl2)
+#2d lists
+twod=[[1,0,0],[0,1,0],[0,0,1]]
+print(twod)
+print(twod[1][1])
