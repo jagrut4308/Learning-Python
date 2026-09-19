@@ -5,3 +5,8 @@ class student:#class helps create our own customised data type
         self.name=name
         self.major=major
         self.cgpa=cgpa
+    def on_honors(self):
+        if self.cgpa>=9:
+            return True
+        else:
+            return False
